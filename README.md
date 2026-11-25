@@ -1,13 +1,14 @@
 # IPO Listing-Day Gain Prediction (India – Mainboard & SME)
 
-**Course:** Introduction to Machine Learning (PCCAIML502)  
-**Objective:** Predict Day-1 listing-day percentage gains (`target_open_gain_pct`, `target_typical_gain_pct`, `target_close_gain_pct`) for Indian equity IPOs using pre-listing fundamentals, subscription demand, anchor quality, grey market sentiment, and broad market macro regimes.
+A leakage-free machine learning pipeline and interactive Streamlit app for predicting Day-1 listing gains and downside/upside intervals (`P10`, `P50`, `P90`) across Indian equity IPOs.
 
 ---
 
 ## Problem Statement
 
-Indian IPOs exhibit wide Day-1 listing-day dispersion across Mainboard and SME segments. Using only information available up to the IPO subscription close date (`close_date`), this project builds a leakage-free machine learning pipeline to estimate expected listing gains and compare distinct model families under strict chronological validation.
+An **Initial Public Offering (IPO)** is the process where a private company offers its shares to public investors for the first time at a fixed or book-built **issue price** before listing on a stock exchange (BSE or NSE). In India, IPOs span both large-cap **Mainboard** issues and smaller **SME** (Small and Medium Enterprise) issues. On **listing day (Day 1)**, the stock's trading price can open and close significantly above or below its issue price – this percentage difference is the **listing-day gain** (ranging from `-38%` to `+189%` in our dataset).
+
+Using only information available up to the IPO subscription close date (`close_date`) – company financials from the offer document (RHP), institutional/retail subscription demand, anchor investor quality, market sentiment, and broad market indices – this project builds a leakage-free machine learning pipeline to estimate expected Day-1 listing gains and compare distinct model families under strict chronological validation.
 
 ---
 
