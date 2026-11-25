@@ -1,0 +1,289 @@
+{
+  "total_ipos": 1060,
+  "mainboard_count": 324,
+  "sme_count": 736,
+  "overall_typical_mean_pct": 23.02,
+  "overall_typical_median_pct": 9.71,
+  "overall_positive_rate_pct": 71.23,
+  "segment_stats": [
+    {
+      "segment": "Mainboard",
+      "count": 324,
+      "mean": 18.56,
+      "median": 9.9,
+      "std": 30.4,
+      "pct_positive": 72.53,
+      "pct_gt_20": 34.88
+    },
+    {
+      "segment": "SME",
+      "count": 736,
+      "mean": 24.98,
+      "median": 9.34,
+      "std": 38.57,
+      "pct_positive": 70.65,
+      "pct_gt_20": 38.72
+    }
+  ],
+  "subscription_buckets": [
+    {
+      "sub_bucket": "< 2x",
+      "count": 173,
+      "mean": -1.09,
+      "median": -3.0,
+      "pct_positive": 37.57
+    },
+    {
+      "sub_bucket": "2x\u201310x",
+      "count": 226,
+      "mean": 1.16,
+      "median": 0.48,
+      "pct_positive": 50.88
+    },
+    {
+      "sub_bucket": "10x\u201350x",
+      "count": 184,
+      "mean": 10.83,
+      "median": 6.68,
+      "pct_positive": 71.74
+    },
+    {
+      "sub_bucket": "50x\u2013150x",
+      "count": 230,
+      "mean": 28.57,
+      "median": 20.53,
+      "pct_positive": 89.57
+    },
+    {
+      "sub_bucket": "> 150x",
+      "count": 247,
+      "mean": 63.8,
+      "median": 71.03,
+      "pct_positive": 95.95
+    }
+  ],
+  "sector_stats": [
+    {
+      "sector": "Industrials & Capital Goods",
+      "count": 263,
+      "mean": 32.88,
+      "median": 18.55,
+      "pct_positive": 76.43
+    },
+    {
+      "sector": "IT & Tech",
+      "count": 84,
+      "mean": 31.5,
+      "median": 17.5,
+      "pct_positive": 78.57
+    },
+    {
+      "sector": "Energy & Utilities",
+      "count": 16,
+      "mean": 24.5,
+      "median": 16.4,
+      "pct_positive": 75.0
+    },
+    {
+      "sector": "Chemicals & Petrochemicals",
+      "count": 45,
+      "mean": 25.08,
+      "median": 13.5,
+      "pct_positive": 75.56
+    },
+    {
+      "sector": "Healthcare & Pharma",
+      "count": 69,
+      "mean": 21.49,
+      "median": 11.69,
+      "pct_positive": 73.91
+    },
+    {
+      "sector": "Infrastructure & Construction",
+      "count": 78,
+      "mean": 22.8,
+      "median": 10.07,
+      "pct_positive": 78.21
+    },
+    {
+      "sector": "Financials",
+      "count": 48,
+      "mean": 18.67,
+      "median": 9.82,
+      "pct_positive": 72.92
+    },
+    {
+      "sector": "Agriculture",
+      "count": 27,
+      "mean": 26.38,
+      "median": 8.44,
+      "pct_positive": 59.26
+    },
+    {
+      "sector": "Consumer Goods & Retail",
+      "count": 212,
+      "mean": 15.54,
+      "median": 6.06,
+      "pct_positive": 65.09
+    },
+    {
+      "sector": "Media & Entertainment",
+      "count": 25,
+      "mean": 20.97,
+      "median": 5.37,
+      "pct_positive": 64.0
+    },
+    {
+      "sector": "Real Estate",
+      "count": 12,
+      "mean": 11.07,
+      "median": 5.27,
+      "pct_positive": 66.67
+    },
+    {
+      "sector": "Auto & Ancillaries",
+      "count": 41,
+      "mean": 14.99,
+      "median": 5.22,
+      "pct_positive": 70.73
+    },
+    {
+      "sector": "Other/Diversified",
+      "count": 94,
+      "mean": 17.04,
+      "median": 4.28,
+      "pct_positive": 62.77
+    },
+    {
+      "sector": "Logistics & Transport",
+      "count": 46,
+      "mean": 11.83,
+      "median": 3.06,
+      "pct_positive": 63.04
+    }
+  ],
+  "yearly_stats": [
+    {
+      "listing_year": 2023,
+      "count": 51,
+      "mean": 38.09,
+      "median": 20.24,
+      "pct_positive": 84.31
+    },
+    {
+      "listing_year": 2024,
+      "count": 335,
+      "mean": 42.62,
+      "median": 31.84,
+      "pct_positive": 86.57
+    },
+    {
+      "listing_year": 2025,
+      "count": 372,
+      "mean": 11.22,
+      "median": 3.7,
+      "pct_positive": 63.71
+    },
+    {
+      "listing_year": 2026,
+      "count": 302,
+      "mean": 13.25,
+      "median": 4.15,
+      "pct_positive": 61.26
+    }
+  ],
+  "top_correlations": [
+    {
+      "feature": "gmp_close_day_pct",
+      "corr": 0.795
+    },
+    {
+      "feature": "sub_total_x",
+      "corr": 0.661
+    },
+    {
+      "feature": "sub_nii_total_x",
+      "corr": 0.64
+    },
+    {
+      "feature": "sub_rii_x",
+      "corr": 0.629
+    },
+    {
+      "feature": "sub_qib_total_x",
+      "corr": 0.613
+    },
+    {
+      "feature": "smallcap250_ret_22d_pct",
+      "corr": 0.235
+    },
+    {
+      "feature": "nifty50_ret_22d_pct",
+      "corr": 0.172
+    },
+    {
+      "feature": "india_vix_close",
+      "corr": 0.08
+    },
+    {
+      "feature": "roe_pct",
+      "corr": 0.066
+    },
+    {
+      "feature": "roce_pct",
+      "corr": 0.056
+    },
+    {
+      "feature": "tier1_anchor_share_pct",
+      "corr": -0.026
+    },
+    {
+      "feature": "ofs_pct",
+      "corr": -0.05
+    },
+    {
+      "feature": "post_issue_mcap_cr",
+      "corr": -0.072
+    },
+    {
+      "feature": "pe_post_ipo",
+      "corr": -0.079
+    },
+    {
+      "feature": "total_issue_size_cr",
+      "corr": -0.083
+    },
+    {
+      "feature": "gmp_momentum_pct",
+      "corr": -0.117
+    }
+  ],
+  "issue_type_stats": [
+    {
+      "issue_type": "Book_Built",
+      "count": 878,
+      "mean": 25.21,
+      "median": 11.76
+    },
+    {
+      "issue_type": "Fixed_Price",
+      "count": 182,
+      "mean": 12.42,
+      "median": 2.98
+    }
+  ],
+  "upper_band_stats": [
+    {
+      "priced_at_upper_band": 0,
+      "count": 2,
+      "mean": -0.66,
+      "median": -0.66
+    },
+    {
+      "priced_at_upper_band": 1,
+      "count": 1058,
+      "mean": 23.06,
+      "median": 9.76
+    }
+  ]
+}
